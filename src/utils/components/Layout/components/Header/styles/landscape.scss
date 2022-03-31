@@ -1,0 +1,113 @@
+$background-color: #333333;
+$navigation: #56CCF2;
+$working-hours: #828282;
+$service: #bdbdbd;
+$white: #ffffff;
+$bold: 'Lato';
+$semibold: 'LatoSemiBold';
+$normal: 'LatoWeb';
+
+.footerWraper {
+    
+}
+
+.footerContentBlock {
+    background-color: $background-color;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 4%;
+}
+
+.siteRulesBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.navigation {
+    font-family: $bold;
+    color: $navigation;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 30px;
+}
+
+.workingHoursBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.workingHoursTxt {
+    padding-bottom: 16px;
+    font-family: $normal;
+    color: $working-hours;
+    font-size: 20px;
+}
+
+.helpTxt {
+    font-family: $normal;
+    color: $service;
+    font-size: 15px;
+}
+
+.serviceTxt {
+    font-family: $bold;
+    color: $white;
+    font-size: 15px;
+}
+
+.serviceInfoBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.ourContactsBlock {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ourContactsTxt {
+    font-family: $normal;
+    color: $working-hours;
+    font-size: 20px;
+}
+
+.emailBlock {
+    display: flex;
+    flex-direction: row;
+}
+
+.emailTxt {
+    font-family: $normal;
+    color: $white;
+    font-size: 15px;
+}
+
+.informationBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.timeNContactsBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logosBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+

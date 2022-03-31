@@ -1,0 +1,422 @@
+.root {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.backgroundImage {
+    position: absolute;
+    z-index: -1000;
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    & > .content {
+        width: $full-hd-width;
+        max-width: 1100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: center;
+    }
+
+    & .block {
+        display: flex;
+        flex-direction: row;
+        & > div {
+            & > button:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    & .text {
+        display: flex;
+        align-self: center;
+        font-family: 'LatoWeb';
+        font-size: 15px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    & .textHead {
+        display: flex;
+        align-self: center;
+        font-family: 'Lato';
+        font-size: 15px;
+        color: white;
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+}
+
+.upper_main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: space-between;
+    & > div {
+        width: 100%;
+        height: 100%;
+        & > p {
+            font-size: 52px;
+            font-family: $bold;
+            color: white;
+            padding-top: 45px;
+            display: flex;
+            flex-direction: column;
+            line-height: 1.5;
+            & > span {
+                margin-top: 20px;
+                font-size: 22px;
+                font-family: $normal;
+                color: white;
+                
+            }
+        }
+    }
+}
+
+.card {
+    display: flex;
+}
+
+.white_cloud_main {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0px 10px 40px rgba(8, 41, 135, 0.1);
+    padding: 70px;
+    & > p {
+        text-align: center;
+        font-size: 15px;
+        font-family: $bold;
+        margin-top: 30px;
+        & > span {
+            font-size: 15px;
+            color: #888888;
+            font-family: $bold;
+        }
+    }
+    & > h1 {
+        text-align: center;
+        font-size: 15px;
+        font-family: $bold;
+        margin-top: 10px;
+        & > span {
+            font-size: 15px;
+            color: #888888;
+            font-family: $bold;
+        }
+        & > strong {
+            font-size: 15px;
+            color: #2CB9E7;
+            font-family: $bold;
+            border-bottom: 1px solid #2CB9E7;
+            cursor: pointer;
+        }
+    }
+
+    & > span {
+        font-size: 15px;
+        color: #888888;
+        font-family: $normal;
+        margin-top: 30px;
+        & > strong {
+            font-size: 15px;
+            color: #2CB9E7;
+            font-family: $normal;
+            cursor: pointer;
+        }
+    }
+
+    & > button {
+        border: none;
+        background-color: #22C064;
+        cursor: pointer;
+        border-radius: 50px;
+        font-size: 16px;
+        font-family: $bold;
+        color: white; 
+        padding: 25px 90px 25px 90px;
+        margin-top: 85px;
+    }
+
+    & > img {
+        width: 64px;
+        height: 64px;
+        margin: 25px 0px 25px;
+    }
+}
+
+.white_cloud_to {
+    width: 100%;
+    height: 100%;
+    & > p {
+        font-size: 32px;
+        font-family: $bold;
+    }
+    & > div {
+        margin-top: 30px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        & > div {
+            width: 45%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+        } 
+        & > input {
+            width: 45%;
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+            border-color: #56CCF2;
+            text-align: right;
+            font-size: 20px;
+            font-family: $normal;
+        }
+    }
+}
+
+.white_cloud_taking {
+    width: 100%;
+    height: 100%;
+    & > p {
+        font-size: 32px;
+        font-family: $bold;
+    }
+    & > span {
+        font-family: $normal;
+        font-size: 15px;
+        color: #FF0000;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 25px;
+    }
+    & > div {
+        margin-top: 30px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        & > div {
+            width: 45%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+        } 
+        & > input {
+            width: 45%;
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+            border-color: #56CCF2;
+            text-align: right;
+            font-size: 20px;
+            font-family: $normal;
+        }
+    }
+}
+
+.about_main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+    & > div {
+        width: 31.5%;
+        height: 100%;
+        flex-direction: column;
+        text-align: center;
+        & > p {
+            font-size: 22px;
+            font-family: $bold;
+            margin: 50px 0px 25px;
+        }
+        & > span {
+            font-size: 16px;
+            font-family: $normal;
+            line-height: 1.5;
+        }
+
+    }
+}
+
+.reviews_main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 300px;
+    margin-bottom: 350px;
+    position: relative;
+    & > img {
+        position: absolute;
+        left: -405px;
+        top: -150px;
+        z-index: -10;
+    }
+}
+
+.control_slider {
+    width: 100%;
+    height: 100%;
+    & > span {
+        font-size: 22px;
+        color: white;
+        font-family: $bold;
+    }
+    & > p {
+        margin-top: 45px;
+        font-size: 42px;
+        font-family: $bold;
+        color: white;
+        line-height: 1.5;
+    }
+    & > div {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        }
+    & > button {
+        margin-top: 150px;
+        cursor: pointer;
+        font-size: 16px;
+        font-family: $bold;
+        color: white;
+        border-radius: 50px;
+        border: 3px solid white;
+        padding: 25px 80px 25px 80px;
+        background-color: transparent;
+    }
+}
+
+.reviews_chunk {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    &_left {
+        width: 100%;
+        height: 100%;
+        margin: 0px 0px 20px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        & > div {
+            margin-top: 30px;
+        }
+    }
+    &_right {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        & > div {
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+    }
+}
+
+
+.reserve_currencies {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 210px;
+    & > p {
+        font-size: 42px;
+        font-family: $bold;
+        margin-bottom: 50px;
+    }
+}
+
+.reserve_main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    & > div {
+        width: 15%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #D5D8DD;
+        border-radius: 20px;
+        text-align: center;
+        padding: 34px 0px 34px;
+        & > img {
+            width: 50px;
+            height: 50px;
+        }
+        & > p {
+            font-size: 15px;
+            font-family: $normal;
+            color: #828282;
+            margin: 15px 0px 10px;
+        }
+        & > span {
+            font-size: 15px;
+            font-family: $bold;
+        }
+    }
+}
+
+
+.Button {
+    font-family: 'LatoSemiBold';
+    font-weight: 400;
+    color: #fff;
+    font-size: 15px;
+    line-height: 130%;
+    margin-left: 30px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 0px;
+}
+
+.rightArrowDisabled {
+    opacity: 30%;
+}
+
+.rightArrowEnabled {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.leftArrowEnabled {
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.leftArrowDisabled {
+    opacity: 30%;
+    transform: rotate(180deg);
+}

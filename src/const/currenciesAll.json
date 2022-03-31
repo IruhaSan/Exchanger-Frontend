@@ -1,0 +1,122 @@
+[
+    {
+        "title": "Bitcoin BTC",
+        "unit": "BTC",
+        "isCoin": true,
+        "wallet": "bc1qr7fw4x2dt4lp3gjh427njfq2l8vcw5420sc08h",
+        "reserve": 6,
+        "img": "http://localhost:8080/static/currency/units/BTC.svg"
+    },
+    {
+        "title": "Ethereum",
+        "unit": "ETH",
+        "isCoin": true,
+        "wallet": "0x5B4a943Ad1A9C59cB00DB5Eac15f2f1b684EfA29",
+        "reserve": 118,
+        "img": "http://localhost:8080/static/currency/units/ETH.svg"
+    },
+    {
+        "title": "Ripple",
+        "unit": "XRP",
+        "isCoin": true,
+        "wallet": "rNNxf7j7HVhhdnkMDERsq9TNhhgSSpfakS",
+        "reserve": 120000,
+        "img": "http://localhost:8080/static/currency/units/XRP.svg"
+    },
+    {
+        "title": "Binance Chain",
+        "unit": "BNB",
+        "isCoin": true,
+        "wallet": "bnb17wt70r4clut6xle4my7l8q90ae2yd7efckkw3p",
+        "reserve": 2521,
+        "img": "http://localhost:8080/static/currency/units/BNB.svg"
+    },
+    {
+        "title": "Litecoin",
+        "unit": "LTC",
+        "isCoin": true,
+        "wallet": "ltc1ql4me2skxlgn82tmy0v2gn6gt80dphw8hk57q4a",
+        "reserve": 628,
+        "img": "http://localhost:8080/static/currency/units/LTC.svg"
+    },
+    {
+        "title": "Polygon",
+        "unit": "MATIC",
+        "isCoin": true,
+        "wallet": "0x5B4a943Ad1A9C59cB00DB5Eac15f2f1b684EfA29",
+        "reserve": 10000000,
+        "img": "http://localhost:8080/static/currency/units/MATIC.jpg"
+    },
+    {
+        "title": "Stellar Lumens",
+        "unit": "XLM",
+        "isCoin": true,
+        "wallet": "GD4AUYERLCQMJRWDO3S2BZAKLA2NGAVKDTRKQQPZXM77SMDV4HBI3OIZ",
+        "reserve": 80000,
+        "img": "http://localhost:8080/static/currency/units/XLM.svg"
+    },
+    {
+        "title": "Tron",
+        "unit": "TRX",
+        "isCoin": true,
+        "wallet": "TNjYBmHTUXPVapnATtiwFDiuHgZczyH5Nz",
+        "reserve": 7300000,
+        "img": "http://localhost:8080/static/currency/units/TRX.svg"
+    },
+    {
+        "title": "Cosmos",
+        "unit": "ATOM",
+        "isCoin": true,
+        "wallet": "TNjYBmHTUXPVapnATtiwFDiuHgZczyH5Nz",
+        "reserve": 6452,
+        "img": "http://localhost:8080/static/currency/units/ATOM.png"
+    },
+    {
+        "title": "Dash",
+        "unit": "DASH",
+        "isCoin": true,
+        "wallet": "Xm4Z6CyDW9tK6g11XpLCNMfVdQWdgVLBsf",
+        "reserve": 1221,
+        "img": "http://localhost:8080/static/currency/units/DASH.svg"
+    },
+    {
+        "title": "Dogecoin",
+        "unit": "DOGE",
+        "isCoin": true,
+        "wallet": "DKvKLoD8kwSBX5JPmQ7sjBgqUScppBKKNP",
+        "reserve": 8000000,
+        "img": "http://localhost:8080/static/currency/units/DOGE.svg"
+    },
+    {
+        "title": "Waves",
+        "unit": "WAVES",
+        "isCoin": true,
+        "wallet": "3PNYAhpEUqj58L1P7Zj5fkU9UAd3yPjNyYx",
+        "reserve": 7400,
+        "img": "http://localhost:8080/static/currency/units/WAVES.jpg"
+    },
+    {
+        "title": "Solana",
+        "unit": "SOL",
+        "isCoin": true,
+        "wallet": "7Hn42XExQ9WJtnQfkttJFx1SjhuqFrNccMpBuwkoHF77",
+        "reserve": 4500,
+        "img": "http://localhost:8080/static/currency/units/SOL.jpg"
+    },
+    {
+        "title": "Tether",
+        "unit": "USDT",
+        "isCoin": true,
+        "wallet": "TNjYBmHTUXPVapnATtiwFDiuHgZczyH5Nz",
+        "reserve": 16200,
+        "img": "http://localhost:8080/static/currency/units/USDT.svg"
+    },
+    {
+        "title": "Sberbank",
+        "unit": "RUB",
+        "isCoin": false,
+        "wallet": "TNjYBmHTUXPVapnATtiwFDiuHgZczyH5Nz",
+        "reserve": 10000000,
+        "img": "http://localhost:8080/static/currency/units/RUB.png"
+    }
+]

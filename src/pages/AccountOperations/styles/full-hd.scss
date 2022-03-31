@@ -1,0 +1,83 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    margin-top: 150px;
+    &-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    & > span {
+        font-size: 42px;
+        font-family: $bold;
+    }
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1100px;
+    height: 100%;
+    
+}
+
+.table {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0px 100px 0px;
+    box-shadow: 0px 10px 40px rgba(8, 41, 135, 0.1);
+    border-radius: 30px;
+    padding: 80px;
+}
+
+.tabula {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    border: 0.5px solid #D1D1D1;
+    justify-content: space-between;
+    &_last {
+        border-bottom: 1px solid #D1D1D1;
+    }
+
+    & > div {
+        display: flex;
+        flex-direction: row;
+        width: 20%;
+        padding: 15px 0px 15px 15px;
+        border-left: 1px solid #D1D1D1;
+        & > span {
+            font-size: 15px;
+            line-height: 18px;
+            font-family: $normal;
+         }
+     }
+
+     & > span {
+        font-size: 15px;
+        line-height: 18px;
+        font-family: $bold;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+     }
+}
+
+
+

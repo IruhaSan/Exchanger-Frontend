@@ -1,0 +1,30 @@
+@import '@/assets/styles/variables.scss';
+@import '@/assets/styles/mixins.scss';
+
+@include media-full-hd {
+  @import './styles/full-hd';
+}
+
+@include media-hd {
+  @import './styles/hd';
+}
+
+@include media-desktop {
+  @import './styles/desktop';
+}
+
+@include media-landscape {
+  @import './styles/landscape';
+}
+
+@include media-portrait {
+  @import './styles/portrait';
+}
+
+@include media-mobile-xl {
+  @import './styles/mobile-xl.scss';
+}
+
+@include media-mobile {
+  @import './styles/mobile.scss';
+}

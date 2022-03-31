@@ -1,0 +1,41 @@
+.root {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: max-content;
+}
+
+.client_card {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 0px 10px 40px rgba(8, 41, 135, 0.1);
+    width: 346px;
+}
+
+.card_text {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    & > span {
+        white-space: pre-line;
+        margin-top: 5px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    & > span:first-child {
+        margin-top: 0px;
+        font-weight: 700;
+        padding-top: 69px;
+        
+    }
+    & > span:last-child {
+        margin-top: 0px;
+        font-weight: 700;
+        color: #828282;
+        padding-bottom: 70px;
+    }
+}

@@ -1,0 +1,58 @@
+.root {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid $color-blue;
+  width: 100%;
+  padding-bottom: 10px;
+
+  min-height: 41px;
+  cursor: pointer;
+  &-wrapper {
+    width: 100%;
+  }
+}
+
+.dropdown {
+  border: none;
+  padding-left: 10px;
+  &.isOpened {
+    & > img {
+      transition: rotate(180deg);
+    }
+  }
+}
+
+.menuList {
+  max-height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.option {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: $normal;
+  align-items: center;
+  padding: 3px;
+  & > img {
+    margin-right: 10px;
+    width: 24px;
+    min-width: 24px;
+    max-width: 24px;
+    height: 24px;
+    min-height: 24px;
+    max-height: 24px;
+  }
+  & > span {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  &:hover {
+    // background-color: #EDEDED;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,207 @@
+.root {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+} 
+
+.card__block {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    .card__body {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        & > h1 {
+            text-align: center;
+            font-family: 'Lato';
+            font-size: 32px;
+            line-height: 38px;
+            color: #212529;
+            margin-bottom: 25px;
+        }
+        & > h2 {
+            color:#22C064;
+            text-align: center;
+            font-family: 'Lato';
+            font-size: 16px;
+            line-height: 38px;
+            & > strong {
+                color:rgb(15, 170, 218);
+                cursor: pointer;
+            }
+        }
+        & > img {
+            position: absolute;
+            cursor: pointer;
+            right: -30px;
+            top: -30px;
+        }
+    & > span:first-child {
+        margin-top: 25px;
+    }
+    & > span {
+        margin-top: 16px;
+        font-family: 'LatoWeb';
+        font-size: 17px;
+        line-height: 1.2;
+        & > strong {
+            color:rgb(252, 77, 77)
+        }
+    }
+    & > h3 {
+        margin-top: 60px;
+        font-size: 15px;
+        line-height: 1.2;
+        font-family: 'LatoWeb';
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    
+    & > input {
+        margin-top: 16px;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+        border-bottom-width: 2px;
+        border-bottom-color: #56CCF2;
+    }
+    &__captcha {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        & > span {
+            font-family: 'Lato';
+            font-size: 20px;
+        }
+        & > input {
+            border-top-width: 0px;
+            border-right-width: 0px;
+            border-left-width: 0px;
+            border-bottom-width: 2px;
+            border-bottom-color: #56CCF2;
+        }
+    }
+    &__tos {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        & > span {
+            margin-left: 12px;
+            font-family: 'LatoWeb';
+            font-size: 15px;
+            position: relative;
+            & > :hover {
+                text-decoration: underline;
+            }
+            & > a{
+                text-decoration: none;
+                color: #00ccff;
+            }
+        }
+    }
+    &__login {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        & > button {
+            padding: 22.5px 97px;
+            background-color: #22C064;
+            border-width: 0px;
+            border-radius: 50px;
+            text-transform: uppercase;
+            color: #FFF;
+            font-family: 'Lato';
+            font-size: 16px;
+            line-height: 1.3;
+        }
+        & > h2 {
+            margin-top: 10px;
+            color: red;
+            font-family: 'Lato';
+            font-size: 16px;
+            line-height: 1.3;
+            position: absolute;
+            top: -40px;
+        }
+        & > h3 {
+            margin-top: 10px;
+            color: #4ebeff;
+            font-family: 'LatoWeb';
+            font-size: 16px;
+            line-height: 1.3;
+            cursor: pointer;
+        }
+        & > a {
+            margin-top: 30px;
+            font-family: 'LatoWeb';
+            font-size: 15px;
+            color: #4ebeff;
+            text-decoration: none;
+            & > :hover {
+                text-decoration: underline;
+            }
+        }
+        & > span {
+            margin-top: 20px;
+            font-family: 'LatoWeb';
+            font-size: 16px;
+            & > span {
+                color: #4ebeff;
+                text-decoration: none;
+                cursor: pointer;
+                }
+            }
+        }   
+    }
+}
+
+.checkBox__input {
+    appearance: none;
+    position: absolute;
+    left: -17px;
+    top: -3px;
+}
+
+.checkBox__input::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-color: #E0E0E0;
+    position: absolute;
+    left: -10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.checkBox__input::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-image: url(../../../../assets/img/check.svg);
+    background-repeat: no-repeat;
+    background-size: 12px 12px;
+    display: block;
+    position: absolute;
+    left: -6px;
+    top: 4px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+}
+
+.checkBox__input:checked::after {
+    opacity: 1;
+}
+
+

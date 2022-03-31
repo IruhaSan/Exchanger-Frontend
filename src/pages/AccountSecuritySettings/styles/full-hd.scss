@@ -1,0 +1,96 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    max-width: 700px;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0px 10px 40px 0px #0829871A;
+    margin: 100px 0px 100px 0px;
+    &-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-end;
+        width: 100%;
+    }
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1100px;
+    height: 100%;
+    & > img {
+        position: absolute;
+        top: 40px;
+        right: 0;
+    }
+    & > h3 {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+        flex-direction: row;
+        font-family: $bold;
+        font-size: 42px;
+        margin-top: 40px;
+    }
+    & > div {
+        width: 85%;
+        height: 100%;
+        margin-bottom: 30px;
+        & > span {
+            font-family: $normal;
+            font-size: 17px;
+            line-height: 50px;
+        }
+        & > h2 {
+            font-family: $normal;
+            font-size: 17px;
+            line-height: 50px;
+            color: red;
+        }
+        & > input {
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            width: 100%;
+            line-height: 20px;
+            border-width: 2px;
+            border-color: #56CCF2;
+        }
+        & > select {
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            background-color: transparent;
+            line-height: 10px;
+            width: 100%;
+            border-width: 2px;
+            border-color: #56CCF2;
+            & > option {
+                background-color: transparent;
+                border-color: #56CCF2;
+            }
+        }
+    }
+}
+.saveButton {
+    width: 250px;
+    height: 66px;
+    border-radius: 50px;
+    align-self: center;
+    justify-self: center;
+    background-color:#22C064;
+    font-family: $bold;
+    color: white;
+    line-height: 20px;
+    border-width: 0;
+    margin-top: 25px;
+    cursor: pointer;
+}
